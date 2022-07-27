@@ -1,7 +1,55 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="YfD@*.YJke`{(A[B}Czv" x="0" y="0"><statement name="HANDLER"><block type="input_set_sound_threshold" id="os!qRctWh2cFji8Q]_[%"><field name="sound">SoundThreshold.Loud</field><value name="value"><shadow type="math_number_minmax" id="w_p/ke?]jzq`)vLFQf^D"><mutation min="0" max="255" label="Threshold" precision="0"></mutation><field name="SLIDER">78</field></shadow></value></block></statement></block><block type="device_forever" id="34PijtPvo{1===Pu6Hfy" x="448" y="-4"><statement name="HANDLER"><block type="device_set_brightness" id="8Eor@D*`~-^rM?)AdVB~"><value name="value"><shadow type="math_number_minmax"><mutation min="0" max="255" label="Value" precision="0"></mutation><field name="SLIDER">255</field></shadow><block type="device_get_sound_level" id=":yRi@ksw4nC4A;UZZFN]"></block></value></block></statement></block><block type="input_on_sound" id="s8StojYU3{Yni%7aJgEP" x="74" y="180"><field name="sound">DetectedSound.Loud</field><statement name="HANDLER"><block type="device_show_leds" id="eP%D(vI/%.pwSVW^=,y2"><field name="LEDS">`
-        . # . # . 
-        . # . # . 
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="device_forever" id="34PijtPvo{1===Pu6Hfy" x="-484" y="-140"><statement name="HANDLER"><block type="device_set_brightness" id="8Eor@D*`~-^rM?)AdVB~"><value name="value"><shadow type="math_number_minmax"><mutation min="0" max="255" label="Value" precision="0"></mutation><field name="SLIDER">255</field></shadow><block type="device_get_sound_level" id=":yRi@ksw4nC4A;UZZFN]"></block></value><next><block type="sound_mapImagesToVolume" id="xrLz:2suZ?L}4UlWTf-v"><value name="imgs"><block type="lists_create_with" id="01SgV:AO%fE]XyTh/f~y" inline="false"><mutation items="9" horizontalafter="3"></mutation><value name="ADD0"><block type="device_build_image" id="pUW]HiDp+QYoe3PD6?3e"><field name="LEDS">`
         . . . . . 
-        # . . . # 
-        . # # # .
-        `</field></block></statement></block><block type="input_on_sound" id=".l^=-/B:;Qy]Cj|UTZ]p" x="346" y="177"><field name="sound">DetectedSound.Quiet</field><statement name="HANDLER"><block type="basic_show_icon" id="(c?!@%Ca:GA5{*`u/at2"><field name="i">IconNames.Asleep</field></block></statement></block><block type="text" id="kH=YXded5It2/LHRxJCk" disabled="true" x="430" y="408"><field name="TEXT">username: pnjstudent</field></block><block type="text" id="II|l(3NlhL5Dw)!V[sm#" disabled="true" x="431" y="451"><field name="TEXT">password: Microbit@2022</field></block></xml>
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field></block></value><value name="ADD1"><block type="device_build_image" id="RD2U*qy[~?oVdk9My)xH"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        # . . . . 
+        # # . . .
+        `</field></block></value><value name="ADD2"><block type="device_build_image" id="ql`0-6LVy-l7-^hqYyHa"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        # . . . . 
+        # # . . . 
+        # # # . .
+        `</field></block></value><value name="ADD3"><block type="device_build_image" id="T9AiYF1bl.C4Bg(.h0ps"><field name="LEDS">`
+        . . . . . 
+        # . . . . 
+        # # . . . 
+        # # # . . 
+        # # # # .
+        `</field></block></value><value name="ADD4"><block type="device_build_image" id="MZfdIdPaxSpfXpkYJmV="><field name="LEDS">`
+        # . . . . 
+        # # . . . 
+        # # # . . 
+        # # # # . 
+        # # # # #
+        `</field></block></value><value name="ADD5"><block type="device_build_image" id="fH.Lf[dcB=gZ1F+YC{?A"><field name="LEDS">`
+        # # . . . 
+        # # # . . 
+        # # # # . 
+        # # # # # 
+        # # # # #
+        `</field></block></value><value name="ADD6"><block type="device_build_image" id="ue|#:eB,OegXcPa~SF#/"><field name="LEDS">`
+        # # # . . 
+        # # # # . 
+        # # # # # 
+        # # # # # 
+        # # # # #
+        `</field></block></value><value name="ADD7"><block type="device_build_image" id="4[FRB,h/U.NB}r,]i:F6"><field name="LEDS">`
+        # # # # . 
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        # # # # #
+        `</field></block></value><value name="ADD8"><block type="device_build_image" id="g;l4y;4}pY#88z~;d.vr"><field name="LEDS">`
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        # # # # #
+        `</field></block></value></block></value></block></next></block></statement></block><block type="input_logo_event" id="k81Oe1Mh=/lfuBwH$)Ri" x="156" y="5"><field name="action">TouchButtonEvent.Pressed</field><statement name="HANDLER"><block type="sound_resetMaxVol" id="tF)(w{nzN4XXsc1[vzR]"></block></statement></block><block type="text" id="kH=YXded5It2/LHRxJCk" disabled="true" x="430" y="408"><field name="TEXT">username: pnjstudent</field></block><block type="text" id="II|l(3NlhL5Dw)!V[sm#" disabled="true" x="431" y="451"><field name="TEXT">password: Microbit@2022</field></block></xml>
